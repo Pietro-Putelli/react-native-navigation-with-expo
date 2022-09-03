@@ -8,8 +8,5 @@ Since wix/react-native-navigation cause errors when installed with expo-modules,
 
 ```bash
 > git clone https://github.com/starters-dev/rnn-with-expo.git App && cd App
-> yarn && yarn ios:pods
-
-> yarn ios
-> yarn android
+> yarn && cd ios/ && pod install
 ```
